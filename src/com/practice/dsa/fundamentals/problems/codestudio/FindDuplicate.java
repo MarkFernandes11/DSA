@@ -21,7 +21,7 @@ public class FindDuplicate {
 		scanner.close();
 	}
 
-	private static int findDuplicate(int[] array) {
+	public static int findDuplicate(int[] array) {
 		// 1. create a array of size array.length - 1
 		int[] temp = new int[array.length - 1];
 		int duplicate = 0;
